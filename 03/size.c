@@ -24,8 +24,6 @@ int main() {
     } z;
     # pragma pack()
 
-
-
     printf("Size of struct foo: %zu\n", sizeof(f));
     printf("Size of struct bar: %zu\n", sizeof(b));
     printf("Size of struct baz: %zu\n", sizeof(z));
