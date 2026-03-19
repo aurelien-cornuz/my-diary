@@ -3,6 +3,28 @@
 - [x] Structures avec membres flexibles
 - [x] Structures imbriquées
 - [ ] Labo météo
+- [ ] Le lecture des arguments
+
+## Lecture des arguments
+
+```text
+$ ./weather-analyser --help
+USAGE: ./weather-analyser [options] [filename]
+
+This program processes weather data issued from the internet.
+It reads from [filename] or if missing, directly from STDIN.
+
+The output format is CSV compliant.
+
+OPTIONS:
+
+  --version, -v  Shows the version
+  --help, -h     Shows this help dialog
+
+  --binary, -b   Output in binary mode, not CSV
+
+  --output, -o<filename>   Write output on <filename>
+```
 
 ## Membres Flexibles
 
