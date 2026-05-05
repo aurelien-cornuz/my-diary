@@ -2,17 +2,17 @@
 
 #include <stdlib.h>
 
-
-
-typedef struct node {
+typedef struct node
+{
     int value;
     struct node *next;
-} Node; 
+} Node;
 
-typedef struct linked_list{ 
+typedef struct linked_list
+{
     Node *head;
-    Node *tail; 
-} LinkedList; 
+    Node *tail;
+} LinkedList;
 
-void linked_list_init(LinkedList *list); 
+void linked_list_init(LinkedList *list);
 void linked_list_push_back(LinkedList *list, int *value);
